@@ -1,0 +1,9 @@
+persistence:
+  username: "polaris"
+  password: "polaris"
+  database: "polaris"
+
+image:
+  repository: docker.io/postgres
+  tag: 17
+  pullPolicy: IfNotPresent
