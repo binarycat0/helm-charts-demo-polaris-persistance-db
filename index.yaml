@@ -1,0 +1,24 @@
+apiVersion: v1
+entries:
+  binarycat-polaris-persistance-db:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2025-10-03T17:50:12.148573467Z"
+    description: PErsistance DB for Apache Polaris catalog
+    digest: 602c265fd63f4436abf63d65c1b8e402240cfce5205d01742f6f7a5ab0def433
+    home: https://github.com/binarycat0/helm-charts-demo-polaris-persistance-db
+    keywords:
+    - polaris
+    - apache
+    - iceberg
+    - postgres
+    maintainers:
+    - name: binarycat0
+    name: binarycat-polaris-persistance-db
+    sources:
+    - https://github.com/binarycat0/helm-charts-demo-polaris-persistance-db
+    type: application
+    urls:
+    - https://binarycat0.github.io/helm-charts-demo-polaris-persistance-db/binarycat-polaris-persistance-db-1.0.0.tgz
+    version: 1.0.0
+generated: "2025-10-03T17:50:12.147864874Z"
