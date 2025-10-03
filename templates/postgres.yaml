@@ -21,11 +21,11 @@ spec:
         imagePullPolicy: {{ .Values.image.pullPolicy }}
         env:
         - name: POSTGRES_PASSWORD
-          value: {{ .Values.persistence.password | quote }}
+          value: {{ .Values.postgres.password | quote }}
         - name: POSTGRES_USER
-          value: {{ .Values.persistence.username | quote }}
+          value: {{ .Values.postgres.username | quote }}
         - name: POSTGRES_DB
-          value: {{ .Values.persistence.database | quote }}
+          value: {{ .Values.postgres.database | quote }}
         ports:
         - containerPort: {{ .Values.service.port }}
         volumeMounts:
