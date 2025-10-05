@@ -1,5 +1,5 @@
 apiVersion: v2
-name: binarycat-polaris-persistance-db
+name: binarycat-polaris-persistence-db
 description: Persistance DB for Apache Polaris catalog
 type: application
 version: 1.0.1
@@ -9,8 +9,8 @@ keywords:
   - apache
   - iceberg
   - postgres
-home: https://github.com/binarycat0/helm-charts-demo-polaris-persistance-db
+home: https://github.com/binarycat0/helm-charts-demo-polaris-persistence-db
 sources:
-  - https://github.com/binarycat0/helm-charts-demo-polaris-persistance-db
+  - https://github.com/binarycat0/helm-charts-demo-polaris-persistence-db
 maintainers:
   - name: binarycat0
