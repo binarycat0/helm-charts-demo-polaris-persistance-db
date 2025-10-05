@@ -21,7 +21,7 @@ jobs:
       - name: Package Helm Chart
         run: |
           helm package .
-          helm repo index . --url https://binarycat0.github.io/helm-charts-demo-polaris-persistance-db
+          helm repo index . --url https://binarycat0.github.io/helm-charts-demo-polaris-persistence-db
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
