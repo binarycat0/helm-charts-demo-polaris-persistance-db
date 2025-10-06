@@ -1,7 +1,11 @@
-# Public Postgresql Helm Chart
+# Public Postgresql DB Helm Chart for Apache Polaris catalog
 
 Helm Chart prepared special for the article on Medium.
 [Check full story here](https://medium.com/@artur.rakhmatulin/deploying-apache-polaris-to-k8s-with-aws-s3-storage-config-406ab272844a)
+
+## usage example
+
+- https://gist.github.com/binarycat0/15fd70a2752b75ad5a5873bfa574129b
 
 ## source code
 
