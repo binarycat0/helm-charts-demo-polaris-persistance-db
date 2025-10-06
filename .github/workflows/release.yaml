@@ -35,6 +35,11 @@ jobs:
       - name: Copy README.md to index.md
         run: cp README.md index.md
 
+      - name: Prepare index.md with front matter
+        run: |
+          echo -e "---\nlayout: default\ntitle: Home\n---\n" > index.md
+          cat README.md >> index.md
+
       - name: Build site with Jekyll
         run: |
           jekyll build --source . --destination ./_site
