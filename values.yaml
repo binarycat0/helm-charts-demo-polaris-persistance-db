@@ -10,3 +10,8 @@ postgres:
   database: "polaris"
   username: "polaris"
   password: "polaris"
+
+persistence:
+  size: 8Gi
+  storageClass: standard
+  keepPolicy: keep
