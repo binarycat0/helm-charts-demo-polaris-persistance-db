@@ -3,8 +3,11 @@ image:
   tag: 17
   pullPolicy: IfNotPresent
 
+appLabel: postgres
+
 service:
   port: 5432
+  name: postgres
 
 postgres:
   database: "polaris"
@@ -12,6 +15,7 @@ postgres:
   password: "polaris"
 
 persistence:
+  name: postgres-pvc
   size: 8Gi
   storageClass: standard
   keepPolicy: keep

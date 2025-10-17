@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
-  name: postgres-pvc
+  name: {{ .Values.persistence.name }}
   namespace: {{ .Release.Namespace }}
   annotations:
     helm.sh/resource-policy: {{ .Values.persistence.keepPolicy | default "delete" }}
