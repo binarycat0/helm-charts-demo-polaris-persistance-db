@@ -3,9 +3,9 @@ entries:
   binarycat-polaris-persistence-db:
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2025-10-07T14:23:05.228604931Z"
+    created: "2025-10-17T10:26:11.885520524Z"
     description: Persistance DB for Apache Polaris catalog
-    digest: e8698cde4acdc6fdf82e7726d4b2031e7d4fffb76afcb1c81c06804a00a7b485
+    digest: 7c30f1e97c7a6335fd157d8791a1c15008fc8b84033a90445313c7a13f820c4b
     home: https://github.com/binarycat0/helm-charts-demo-polaris-persistence-db
     keywords:
     - polaris
@@ -21,4 +21,4 @@ entries:
     urls:
     - https://binarycat0.github.io/helm-charts-demo-polaris-persistence-db/binarycat-polaris-persistence-db-1.0.1.tgz
     version: 1.0.1
-generated: "2025-10-07T14:23:05.227797798Z"
+generated: "2025-10-17T10:26:11.88472025Z"
